@@ -13,6 +13,12 @@
 		540AC6DBBBE501625C893A538711B0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		54CC484509F64F7CD992A7F84D309C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5694BF7EB997C802B20912A8AA5D5E83 /* Fuse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E382BC5FD9069251E07719075FAAA2F /* Fuse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656E037123F4B1F700EB856C /* Fuse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656E036823F4B1F700EB856C /* Fuse.framework */; };
+		656E037623F4B1F700EB856C /* Fuse_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E037523F4B1F700EB856C /* Fuse_macOSTests.swift */; };
+		656E037823F4B1F700EB856C /* Fuse_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 656E036A23F4B1F700EB856C /* Fuse_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656E037F23F4B20400EB856C /* Fuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB1DE6B2E1A7DA89DC01335DEB28C1 /* Fuse.swift */; };
+		656E038023F4B20400EB856C /* FuseUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBCA0A350935B7FE455D78D583A3647 /* FuseUtilities.swift */; };
+		656E038123F4B20400EB856C /* String+Fuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB0803F026CFBC246952510AD8A8B2 /* String+Fuse.swift */; };
 		7E0A401710560F686B743A74BA473119 /* Pods-Fuse_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 419D9AFED7E7FE6FA2EA5F0036D3B83E /* Pods-Fuse_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925C053E3781A9FE4360557296CD10CA /* Pods-Fuse_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08791F25287CF5ABE72A1149C6151107 /* Pods-Fuse_Tests-dummy.m */; };
 		AC936D4C5B825DBD4003B0421E820EEE /* Fuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB1DE6B2E1A7DA89DC01335DEB28C1 /* Fuse.swift */; };
@@ -28,6 +34,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B8CD3B3EDB42EEABB2D487F8706AF6BB;
 			remoteInfo = Fuse;
+		};
+		656E037223F4B1F700EB856C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656E036723F4B1F700EB856C;
+			remoteInfo = "Fuse-macOS";
 		};
 		9F466D6708503C8577FEEDFFCD87FDA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,6 +67,12 @@
 		528D3A8E625E7EF6007E9D70CF9B4D0B /* Fuse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fuse-dummy.m"; sourceTree = "<group>"; };
 		54DBC22221D1AE1479A57A8A9AE40651 /* Pods-Fuse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fuse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A8A4322643A7898CE6D1EEEB5D190D2 /* Pods-Fuse_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fuse_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		656E036823F4B1F700EB856C /* Fuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656E036A23F4B1F700EB856C /* Fuse_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fuse_macOS.h; sourceTree = "<group>"; };
+		656E036B23F4B1F700EB856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656E037023F4B1F700EB856C /* Fuse-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuse-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656E037523F4B1F700EB856C /* Fuse_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuse_macOSTests.swift; sourceTree = "<group>"; };
+		656E037723F4B1F700EB856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6614B36C19D0EA2C208303F68C5C0BDA /* Pods-Fuse_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fuse_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		720A29575E509191EF365EFDFE1727C1 /* Fuse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuse-prefix.pch"; sourceTree = "<group>"; };
@@ -81,6 +100,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA058DDF27CFCAA6C3EDCC3E011DB28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E036523F4B1F700EB856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E036D23F4B1F700EB856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E037123F4B1F700EB856C /* Fuse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +196,28 @@
 				51CD0AE6796F692A063F33632D47C923 /* Fuse.framework */,
 				B0B8F6D471015A67024C81799119CFB3 /* Pods_Fuse_Example.framework */,
 				2D4CC22E8530C8ACC0306265C571D4E5 /* Pods_Fuse_Tests.framework */,
+				656E036823F4B1F700EB856C /* Fuse.framework */,
+				656E037023F4B1F700EB856C /* Fuse-macOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		656E036923F4B1F700EB856C /* Fuse-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				656E036A23F4B1F700EB856C /* Fuse_macOS.h */,
+				656E036B23F4B1F700EB856C /* Info.plist */,
+			);
+			path = "Fuse-macOS";
+			sourceTree = "<group>";
+		};
+		656E037423F4B1F700EB856C /* Fuse-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				656E037523F4B1F700EB856C /* Fuse_macOSTests.swift */,
+				656E037723F4B1F700EB856C /* Info.plist */,
+			);
+			path = "Fuse-macOSTests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -171,6 +225,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F29081034F9160F5BEB300C07687117 /* Development Pods */,
+				656E036923F4B1F700EB856C /* Fuse-macOS */,
+				656E037423F4B1F700EB856C /* Fuse-macOSTests */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3E67CB8AE63537296A06953357B839EA /* Products */,
 				19A033A8998E9295ABF3FDB0EA1DA5B9 /* Targets Support Files */,
@@ -246,6 +302,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		656E036323F4B1F700EB856C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E037823F4B1F700EB856C /* Fuse_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E82A732E35B78D317C7C28C9F1D76F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +329,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		656E036723F4B1F700EB856C /* Fuse-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656E037D23F4B1F800EB856C /* Build configuration list for PBXNativeTarget "Fuse-macOS" */;
+			buildPhases = (
+				656E036323F4B1F700EB856C /* Headers */,
+				656E036423F4B1F700EB856C /* Sources */,
+				656E036523F4B1F700EB856C /* Frameworks */,
+				656E036623F4B1F700EB856C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuse-macOS";
+			productName = "Fuse-macOS";
+			productReference = 656E036823F4B1F700EB856C /* Fuse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		656E036F23F4B1F700EB856C /* Fuse-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656E037E23F4B1F800EB856C /* Build configuration list for PBXNativeTarget "Fuse-macOSTests" */;
+			buildPhases = (
+				656E036C23F4B1F700EB856C /* Sources */,
+				656E036D23F4B1F700EB856C /* Frameworks */,
+				656E036E23F4B1F700EB856C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656E037323F4B1F700EB856C /* PBXTargetDependency */,
+			);
+			name = "Fuse-macOSTests";
+			productName = "Fuse-macOSTests";
+			productReference = 656E037023F4B1F700EB856C /* Fuse-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		66AF68834C251AEE0F9505FA7C8821A0 /* Pods-Fuse_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2EA0F5D870CFA9FB951DDF35550CC9D /* Build configuration list for PBXNativeTarget "Pods-Fuse_Tests" */;
@@ -324,9 +424,18 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 0940;
 				TargetAttributes = {
+					656E036723F4B1F700EB856C = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					656E036F23F4B1F700EB856C = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = XA8U8K5RRK;
+						ProvisioningStyle = Automatic;
+					};
 					B8CD3B3EDB42EEABB2D487F8706AF6BB = {
 						LastSwiftMigration = 0940;
 					};
@@ -337,6 +446,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -347,11 +457,48 @@
 				B8CD3B3EDB42EEABB2D487F8706AF6BB /* Fuse */,
 				EFCF59957162A5D66FB1342620599CBA /* Pods-Fuse_Example */,
 				66AF68834C251AEE0F9505FA7C8821A0 /* Pods-Fuse_Tests */,
+				656E036723F4B1F700EB856C /* Fuse-macOS */,
+				656E036F23F4B1F700EB856C /* Fuse-macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		656E036623F4B1F700EB856C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E036E23F4B1F700EB856C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		656E036423F4B1F700EB856C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E037F23F4B20400EB856C /* Fuse.swift in Sources */,
+				656E038123F4B20400EB856C /* String+Fuse.swift in Sources */,
+				656E038023F4B20400EB856C /* FuseUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E036C23F4B1F700EB856C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E037623F4B1F700EB856C /* Fuse_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1CAADBCBF079B8445FF823400A55A38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +529,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		656E037323F4B1F700EB856C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656E036723F4B1F700EB856C /* Fuse-macOS */;
+			targetProxy = 656E037223F4B1F700EB856C /* PBXContainerItemProxy */;
+		};
 		82A06321603742379EF9612AD0C8C689 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Fuse;
@@ -564,6 +716,156 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		656E037923F4B1F700EB856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Fuse-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Fuse.macOS;
+				PRODUCT_NAME = Fuse;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		656E037A23F4B1F700EB856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Fuse-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Fuse.macOS;
+				PRODUCT_NAME = Fuse;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		656E037B23F4B1F700EB856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XA8U8K5RRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Fuse-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Fuse.macOS.Fuse-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		656E037C23F4B1F700EB856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XA8U8K5RRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Fuse-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Fuse.macOS.Fuse-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -751,6 +1053,24 @@
 			buildConfigurations = (
 				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656E037D23F4B1F800EB856C /* Build configuration list for PBXNativeTarget "Fuse-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656E037923F4B1F700EB856C /* Debug */,
+				656E037A23F4B1F700EB856C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656E037E23F4B1F800EB856C /* Build configuration list for PBXNativeTarget "Fuse-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656E037B23F4B1F700EB856C /* Debug */,
+				656E037C23F4B1F700EB856C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
